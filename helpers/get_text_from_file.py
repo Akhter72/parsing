@@ -2,30 +2,24 @@ import os
 from PyPDF2 import PdfReader
 import docx
 import streamlit as st
-import tempfile
 
 def getTextFromFile(file):
-    file_type = ""
-    # temp_file_path = os.path.join("temp", file.name)
-    with tempfile.NamedTemporaryFile(delete=False) as temp_file:
-        # Write the uploaded file content to the temp file
-        temp_file.write(file.getvalue())  # use getvalue() to access file content
-        temp_file_path = temp_file.name
-        print(temp_file_path)
-        
+    file_type = file.name.split('.')[-1].lower()
+    temp_file_path = os.path.join("temp", file.name)
+
     # Save uploaded file temporarily
-    # with open(temp_file_path, "wb") as temp_file:
-    #     temp_file.write(file.read())
+    with open(temp_file_path, "wb") as temp_file:
+        temp_file.write(file.read())
 
     try:
-    # Now process the file based on its type (PDF, DOCX, TXT)
-        if file.type == "application/pdf":
-            return extract_text_from_pdf(temp_file_path)
-        elif file.type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
-            return extract_text_from_docx(temp_file_path)
-        elif file.type == "text/plain":
-            return extract_text_from_txt(temp_file_path)
+        if file_type == "pdf":
+            extracted_text = extract_text_from_pdf(temp_file_path)
+        elif file_type == "docx":
+            extracted_text = extract_text_from_docx(temp_file_path)
+        elif file_type == "txt":
+            extracted_text = extract_text_from_txt(temp_file_path)
         else:
+            st.error("Unsupported file format. Please upload a PDF, DOCX, or TXT file.")
             return None
     finally:
         # Clean up the temporary file
