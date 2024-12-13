@@ -54,3 +54,11 @@ def extract_text_from_txt(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         text = file.read()
     return text
+
+def save_text_format(file, file_type):
+    text = getTextFromFile(file)
+    output_file = f"output_{os.path.splitext(file)[0]}.txt"
+    with open(output_file, 'w') as f:
+        f.write(text)
+    os.remove(f"temp_{file.name}")
+    return output_file, text

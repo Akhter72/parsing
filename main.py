@@ -1,27 +1,12 @@
 import streamlit as st
-from PyPDF2 import PdfReader
-import docx
-import os
-from helpers.get_text_from_file import getTextFromFile
-from data_extraction import processText
+from screens.parsing import parsing_screen
+from screens.resume_to_text import convert_to_text
 
-# Streamlit interface
-st.title("Resume Parsing")
+# Sidebar for navigation
+screen = st.sidebar.selectbox("Select a Screen", ("Parsing", "Convert to Text"))
 
-st.markdown("Upload a file (PDF, DOCX, or TXT), and we will extract the text for further processing.")
-
-uploaded_file = st.file_uploader("Choose a file", type=["pdf", "docx", "txt"])
-
-if uploaded_file is not None:
-    with st.spinner("Processing the file..."):
-        extracted_text = getTextFromFile(uploaded_file)
-
-    if extracted_text:
-        st.success("File processed successfully!")
-
-        st.text_area("Extracted Text", processText(extracted_text), height=300)
-
-        # Placeholder for additional text processing logic
-        st.markdown("### Processed Output")
-        processed_output = extracted_text.lower()  # Example: convert text to lowercase
-        st.text_area("Processed Text", processed_output, height=300)
+# Render the selected screen
+if screen == "Parsing":
+    parsing_screen()
+elif screen == "Convert to Text":
+    convert_to_text()
