@@ -22,7 +22,7 @@ def convert_to_text():
                 mime="application/zip"
             )
         # shutil.rmtree(temp_dir)  # Delete the temporary folder
-        os.remove(zip_file) 
+        # os.remove(zip_file) 
 
 
 def process_and_create_zip(uploaded_files):
