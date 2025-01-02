@@ -1,0 +1,180 @@
+Resume: 
+ Arunsanthosh  Sivanandam  
++91 9894502292  
+sandyarun123@gmail.com  
+ 
+MuleSoft  Certified  Developer  
+ 
+Professional  Summary  
+ 
+4 years  of Information  Technology  experience  in understanding,  analyzing,  and development  software 
+engineering requirements, - on-site and offshore management of produ ct development. Have 
+experience  on working  on both  Mule  3 and Mule  4 projects.  Successfully  managed  on-site and offshore 
+teams  for product  development.  Worked  on diverse  MuleSoft  projects  involving  integration  with  SAP, 
+Salesforce, Workday, Oracle, databases, SOAP/REST APIs, SFTP, FTP, and Queues.  
+• Designed and  implemented  complex  processing  strategies, error handling,  and MUnit test 
+cases.  
+• Demonstrated  extensive  hands -on expertise  in Dataweave  transformation.  
+• Developed  custom  connectors  and plugins  for project  utility,  enhancing  overall  efficiency.  
+• Proficiently  performed  log analysis  using  ELK stack  through  Amazon  S3 and Splunk.  
+• Designed  and implemented  RAML  specifications  and utility  RAML  fragments.  
+• Possessed  a wide  knowledge  of all aspects  of the Anypoint  Platform.  
+• Implemented  and ensured  adherence  to API security  protocols,  including  Client  ID 
+enforcement, SLA Tiers, Internal load balancer, WSS, and other security -related protocols.  
+Certification  
+• MuleSoft  Certified  Developer  - Level  1 
+Technical  Skills  
+Mule 4, Microservices, API Management, Data Integration, Anypoint Platform, CloudHub, API 
+Designer,  Anypoint  Studio,  Exchange,  API Manager,  Runtime  Manager,  RAML  API Specification, 
+API Fragments, DataWeave & Munit's and  various Connectors, Postman, SOAP UI, Azure 
+DevOps, Salesforce Sites, Jenkins, Apache Jmeter, Anypoint MQ, EDIFact connector, DB 
+connector, File based connectors  
+Achievements  
+• Best  Contributor  Award  
+• Team  Player  Trophy  
+ 
+Work  Experience  
+[Current Employer : SquareBay Technology Solutions Pvt ltd]                         [may 2020 – present]  
+ 
+Client:  Crowley,  
+Role:  MuleSoft  Developer  Jun 2022  to present  
+ 
+Responsibilities:  
+▪ Developed  multiple  REST  APIs,  leveraging  comprehensive  features  of MuleSoft,  including 
+Design Center, Exchange, API Manager, Anypoint Studio, and Runtime Manager.  
+▪ Extensively collaborated on various Mule Connectors, such as Web Service Consumer, HTTP, 
+File, Database, and Salesforce Connector, among others.  
+▪ Played a key role in the entire  software  development  lifecycle,  actively  participating  in 
+requirements gathering, design discussions, and Proof of Concept (POC) designing.  
+▪ Conducted  thorough  unit testing  of developed  applications  using  the MUnit  section  of 
+Anypoint  Studio  and POSTMAN  within  the testing  environment.  
+ 
+ 
+Client : IN-DCS Indiana  
+Role: MuleSoft Developer   Apr 2021  to May  
+2022 Responsibilities:  
+▪ Led the development and integration initiative to determine childcare claim eligibility using 
+MuleSoft, facilitating seamless data exchange between PostgreSQL database and Salesforce 
+(SFDC).  
+▪ Developed multiple REST APIs, showcasing expertise in utilizing M uleSoft features such as  
+Design Center, Exchange, API Manager, Anypoint Studio, and Runtime Manager.  
+▪ Innovatively  designed  and implemented  a universal  plugin,  streamlining  error  handling, 
+functions, configurations, and properties across all APIs, enhancing  overall efficiency.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Client:  AstraZeneca  
+Role: Emerging Integration Engineer  May  2020  – Mar  2021 
+Responsibilities:  
+• Supported  the development  and enhancement  of the Vaccine  API, contributing  to the 
+success of the AstraZeneca Champion Vaccine project.  
+• Managed  Veeva  Vault  Integration,  ensuring  seamless  collaboration  between  systems  and 
+enhancing product safety protocols.  
+• Played  a key role in monitoring,  managing,  and promptly  addressing  issues  to maintain  the 
+project's operational integr ity. 
+• Led the architectural  design  and development  efforts  for the Vaccine  
+• Managed  support  activities,  playing  a pivotal  role in monitoring  and addressing  issues  to 
+maintain project integrity.  
+• Demonstrated  a proactive  approach  by understanding  existing  application  functionality  and 
+implementing enhancements. Upgraded technology and functionality to meet client 
+requirements.  
+
+ JSON Response:
+{'name': 'Arunsanthosh Sivanandam', 'contact_information': {'phone': '+91 9894502292', 'email': 'sandyarun123@gmail.com'}, 'work_experience': [{'job_title': 'MuleSoft Developer', 'company': 'SquareBay Technology Solutions Pvt ltd', 'responsibilities': ['Dreamed multiple REST APIs, leveraging comprehensive features of MuleSoft, including Design Center, Exchange, API Manager, Anypoint Studio, and Runtime Manager.', 'Extensively collaborated on various Mule Connectors, such as Web Service Consumer, HTTP, File, Database, and Salesforce Connector, among others.', 'Played a key role in the entire software development lifecycle, actively participating in requirements gathering, design discussions, and Proof of Concept (POC) designing.', 'Conducted thorough unit testing of developed applications using the MUnit section of Anypoint Studio and POSTMAN within the testing environment.'], 'dates': 'Jun 2022 - present'}, {'job_title': 'MuleSoft Developer', 'company': 'IN-DCS Indiana', 'responsibilities': ['Led the development and integration initiative to determine childcare claim eligibility using MuleSoft, facilitating seamless data exchange between PostgreSQL database and Salesforce (SFDC).', 'Developed multiple REST APIs, showcasing expertise in utilizing MuleSoft features such as Design Center, Exchange, API Manager, Anypoint Studio, and Runtime Manager.', 'Innovatively designed and implemented a universal plugin, streamlining error handling, functions, configurations, and properties across all APIs, enhancing overall efficiency.'], 'dates': 'Apr 2021 - May 2022'}, {'job_title': 'Emerging Integration Engineer', 'company': 'AstraZeneca', 'responsibilities': ['Supported the development and enhancement of the Vaccine API, contributing to the success of the AstraZeneca Champion Vaccine project.', 'Managed Veeva Vault Integration, ensuring seamless collaboration between systems and enhancing product safety protocols.', "Played a key role in monitoring, managing, and promptly addressing issues to maintain the project's operational integrity.", 'Led the architectural design and development efforts for the Vaccine', 'Managed support activities, playing a pivotal role in monitoring and addressing issues to maintain project integrity.', 'Demonstrated a proactive approach by understanding existing application functionality and implementing enhancements. Upgraded technology and functionality to meet client requirements.'], 'dates': 'May 2020 - Mar 2021'}], 'total_experience': 4, 'education': [], 'skills': [{'name': 'MuleSoft', 'related_experience': 4}, {'name': 'Microservices', 'related_experience': 4}, {'name': 'API Management', 'related_experience': 4}, {'name': 'Data Integration', 'related_experience': 4}, {'name': 'Anypoint Platform', 'related_experience': 4}, {'name': 'CloudHub', 'related_experience': 4}, {'name': 'API Designer', 'related_experience': 4}, {'name': 'Anypoint Studio', 'related_experience': 4}, {'name': 'Exchange', 'related_experience': 4}, {'name': 'API Manager', 'related_experience': 4}, {'name': 'Runtime Manager', 'related_experience': 4}, {'name': 'RAML API Specification', 'related_experience': 4}, {'name': 'API Fragments', 'related_experience': 4}, {'name': 'DataWeave', 'related_experience': 4}, {'name': "Munit's", 'related_experience': 4}], 'certifications_and_achievements': ['MuleSoft Certified Developer - Level 1', 'Best Contributor Award', 'Team Player Trophy'], 'additional_details': []}
+
+Resume: 
+ Arunsanthosh  Sivanandam  
++91 9894502292  
+sandyarun123@gmail.com  
+ 
+MuleSoft  Certified  Developer  
+ 
+Professional  Summary  
+ 
+4 years  of Information  Technology  experience  in understanding,  analyzing,  and development  software 
+engineering requirements, - on-site and offshore management of produ ct development. Have 
+experience  on working  on both  Mule  3 and Mule  4 projects.  Successfully  managed  on-site and offshore 
+teams  for product  development.  Worked  on diverse  MuleSoft  projects  involving  integration  with  SAP, 
+Salesforce, Workday, Oracle, databases, SOAP/REST APIs, SFTP, FTP, and Queues.  
+• Designed and  implemented  complex  processing  strategies, error handling,  and MUnit test 
+cases.  
+• Demonstrated  extensive  hands -on expertise  in Dataweave  transformation.  
+• Developed  custom  connectors  and plugins  for project  utility,  enhancing  overall  efficiency.  
+• Proficiently  performed  log analysis  using  ELK stack  through  Amazon  S3 and Splunk.  
+• Designed  and implemented  RAML  specifications  and utility  RAML  fragments.  
+• Possessed  a wide  knowledge  of all aspects  of the Anypoint  Platform.  
+• Implemented  and ensured  adherence  to API security  protocols,  including  Client  ID 
+enforcement, SLA Tiers, Internal load balancer, WSS, and other security -related protocols.  
+Certification  
+• MuleSoft  Certified  Developer  - Level  1 
+Technical  Skills  
+Mule 4, Microservices, API Management, Data Integration, Anypoint Platform, CloudHub, API 
+Designer,  Anypoint  Studio,  Exchange,  API Manager,  Runtime  Manager,  RAML  API Specification, 
+API Fragments, DataWeave & Munit's and  various Connectors, Postman, SOAP UI, Azure 
+DevOps, Salesforce Sites, Jenkins, Apache Jmeter, Anypoint MQ, EDIFact connector, DB 
+connector, File based connectors  
+Achievements  
+• Best  Contributor  Award  
+• Team  Player  Trophy  
+ 
+Work  Experience  
+[Current Employer : SquareBay Technology Solutions Pvt ltd]                         [may 2020 – present]  
+ 
+Client:  Crowley,  
+Role:  MuleSoft  Developer  Jun 2022  to present  
+ 
+Responsibilities:  
+▪ Developed  multiple  REST  APIs,  leveraging  comprehensive  features  of MuleSoft,  including 
+Design Center, Exchange, API Manager, Anypoint Studio, and Runtime Manager.  
+▪ Extensively collaborated on various Mule Connectors, such as Web Service Consumer, HTTP, 
+File, Database, and Salesforce Connector, among others.  
+▪ Played a key role in the entire  software  development  lifecycle,  actively  participating  in 
+requirements gathering, design discussions, and Proof of Concept (POC) designing.  
+▪ Conducted  thorough  unit testing  of developed  applications  using  the MUnit  section  of 
+Anypoint  Studio  and POSTMAN  within  the testing  environment.  
+ 
+ 
+Client : IN-DCS Indiana  
+Role: MuleSoft Developer   Apr 2021  to May  
+2022 Responsibilities:  
+▪ Led the development and integration initiative to determine childcare claim eligibility using 
+MuleSoft, facilitating seamless data exchange between PostgreSQL database and Salesforce 
+(SFDC).  
+▪ Developed multiple REST APIs, showcasing expertise in utilizing M uleSoft features such as  
+Design Center, Exchange, API Manager, Anypoint Studio, and Runtime Manager.  
+▪ Innovatively  designed  and implemented  a universal  plugin,  streamlining  error  handling, 
+functions, configurations, and properties across all APIs, enhancing  overall efficiency.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Client:  AstraZeneca  
+Role: Emerging Integration Engineer  May  2020  – Mar  2021 
+Responsibilities:  
+• Supported  the development  and enhancement  of the Vaccine  API, contributing  to the 
+success of the AstraZeneca Champion Vaccine project.  
+• Managed  Veeva  Vault  Integration,  ensuring  seamless  collaboration  between  systems  and 
+enhancing product safety protocols.  
+• Played  a key role in monitoring,  managing,  and promptly  addressing  issues  to maintain  the 
+project's operational integr ity. 
+• Led the architectural  design  and development  efforts  for the Vaccine  
+• Managed  support  activities,  playing  a pivotal  role in monitoring  and addressing  issues  to 
+maintain project integrity.  
+• Demonstrated  a proactive  approach  by understanding  existing  application  functionality  and 
+implementing enhancements. Upgraded technology and functionality to meet client 
+requirements.  
+
+ JSON Response:
+{'name': 'Arunsanthosh Sivanandam', 'contact_information': {'phone': '+91 9894502292', 'email': 'sandyarun123@gmail.com'}, 'work_experience': [{'job_title': 'MuleSoft Developer', 'company': 'SquareBay Technology Solutions Pvt ltd', 'responsibilities': ['Drove multiple REST APIs, leveraging comprehensive features of MuleSoft, including Design Center, Exchange, API Manager, Anypoint Studio, and Runtime Manager.', 'Extensively collaborated on various Mule Connectors, such as Web Service Consumer, HTTP, File, Database, and Salesforce Connector, among others.', 'Played a key role in the entire software development lifecycle, actively participating in requirements gathering, design discussions, and Proof of Concept (POC) designing.', 'Conducted thorough unit testing of developed applications using the MUnit section of Anypoint Studio and POSTMAN within the testing environment.'], 'dates': 'Jun 2022 - present'}, {'job_title': 'MuleSoft Developer', 'company': 'IN-DCS Indiana', 'responsibilities': ['Led the development and integration initiative to determine childcare claim eligibility using MuleSoft, facilitating seamless data exchange between PostgreSQL database and Salesforce (SFDC).', 'Developed multiple REST APIs, showcasing expertise in utilizing MuleSoft features such as Design Center, Exchange, API Manager, Anypoint Studio, and Runtime Manager.', 'Innovatively designed and implemented a universal plugin, streamlining error handling, functions, configurations, and properties across all APIs, enhancing overall efficiency.'], 'dates': 'Apr 2021 - May 2022'}, {'job_title': 'Emerging Integration Engineer', 'company': 'AstraZeneca', 'responsibilities': ['Supported the development and enhancement of the Vaccine API, contributing to the success of the AstraZeneca Champion Vaccine project.', 'Managed Veeva Vault Integration, ensuring seamless collaboration between systems and enhancing product safety protocols.', "Played a key role in monitoring, managing, and promptly addressing issues to maintain the project's operational integrity.", 'Led the architectural design and development efforts for the Vaccine', 'Managed support activities, playing a pivotal role in monitoring and addressing issues to maintain project integrity.', 'Demonstrated a proactive approach by understanding existing application functionality and implementing enhancements. Upgraded technology and functionality to meet client requirements.'], 'dates': 'May 2020 - Mar 2021'}], 'total_experience': 4, 'education': [], 'skills': [{'name': 'Mule 4', 'related_experience': 2}, {'name': 'Microservices', 'related_experience': 2}, {'name': 'API Management', 'related_experience': 2}, {'name': 'Data Integration', 'related_experience': 2}, {'name': 'Anypoint Platform', 'related_experience': 2}, {'name': 'CloudHub', 'related_experience': 1}, {'name': 'API Designer', 'related_experience': 1}, {'name': 'Anypoint Studio', 'related_experience': 1}, {'name': 'Exchange', 'related_experience': 1}, {'name': 'API Manager', 'related_experience': 1}, {'name': 'Runtime Manager', 'related_experience': 1}, {'name': 'RAML API Specification', 'related_experience': 1}, {'name': 'API Fragments', 'related_experience': 1}, {'name': "DataWeave & Munit's", 'related_experience': 1}, {'name': 'various Connectors', 'related_experience': 1}, {'name': 'Postman', 'related_experience': 1}, {'name': 'SOAP UI', 'related_experience': 1}, {'name': 'Azure DevOps', 'related_experience': 1}, {'name': 'Veeva Vault Integration', 'related_experience': 1}], 'certifications': [], 'awards': []}
+

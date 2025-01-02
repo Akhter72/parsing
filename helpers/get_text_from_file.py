@@ -33,6 +33,35 @@ def getTextFromFile(file):
 
     return extracted_text
 
+def getTextFromFilePath(file, file_extension):
+    file_type = ""
+    # temp_file_path = os.path.join("temp", file.name)
+    # with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+    #     # Write the uploaded file content to the temp file
+    #     temp_file.write(file.getvalue())  # use getvalue() to access file content
+    #     temp_file_path = temp_file.name
+    #     print(temp_file_path)
+        
+    # Save uploaded file temporarily
+    # with open(temp_file_path, "wb") as temp_file:
+    #     temp_file.write(file.read())
+
+    try:
+    # Now process the file based on its type (PDF, DOCX, TXT)
+        if file_extension == "pdf":
+            return extract_text_from_pdf(file)
+        elif file_extension == "docx":
+            return extract_text_from_docx(file)
+        elif file_extension == ".txt":
+            return extract_text_from_txt(file)
+        else:
+            return None
+    finally:
+        # Clean up the temporary file
+        os.remove(file)
+
+    return extracted_text
+
 # Function to extract text from a PDF file
 def extract_text_from_pdf(file_path):
     text = ""
