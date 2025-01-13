@@ -5,6 +5,9 @@ from PyPDF2 import PdfFileReader, PdfReader
 import docx
 
 from llm.olama import parseResumeViaLlm
+from langchain_ollama import OllamaLLM
+
+model = OllamaLLM(model="llama3")
 
 app = FastAPI(title="File Text Extractor API", description="API to extract text from PDF, DOCX, and TXT files", version="0.1.0")
 
@@ -52,3 +55,22 @@ async def extract_text(file: UploadFile = File(...)):
     json = parseResumeViaLlm(text)
     print(json)
     return JSONResponse(content= json, media_type="application/json")
+
+
+@app.post("/get_test_result")
+async def extract_text(text: str):
+    prompt = "answer this " + text
+
+
+    # Invoke the model with the strict prompt
+    result = model.invoke(input=text) 
+    return JSONResponse(content={"message": result}, media_type="application/json")
+
+@app.get("/get_test_result2")
+async def extract_text():
+
+
+
+    # Invoke the model with the strict prompt
+
+    return JSONResponse(content={"message": "result"}, media_type="application/json")
